@@ -54,7 +54,7 @@ int main(void) {
 		if (!*expr) continue;		// если строка пустая - не выполняем никаких действий
 		fprintf(resultFile, "%s = ", expr); // печатаем строку с выражением в файл
 		if (calculate(expr, &result)) fprintf(resultFile, "%X\n", result); // если вычисление прошло без ошибок записываем ответ
-		else fprintf(resultFile, "ERROR! %s\n", errMessage()); // иначе записываем сообщение об ошибке
+		else fprintf(resultFile, "ERROR! %s\n", errorMessage()); // иначе записываем сообщение об ошибке
 	}
 
 	fclose(sourceFile);
