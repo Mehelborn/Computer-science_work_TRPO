@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source_code.c">
+    <ClInclude Include="source\analysis.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="source\consts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="analysis.h">
+    <ClCompile Include="source\source_code.c">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="consts.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

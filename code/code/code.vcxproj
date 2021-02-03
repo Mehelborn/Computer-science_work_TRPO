@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source_code.c" />
+    <ClCompile Include="source\source_code.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="analysis.h" />
-    <ClInclude Include="consts.h" />
+    <ClInclude Include="source\analysis.h" />
+    <ClInclude Include="source\consts.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
